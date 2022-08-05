@@ -106,7 +106,7 @@ observeEvent(input$submit, {
     showNotification("Please use punctuation.", type = "warning")
   }
   if (str_length(input$text) < 10) { # if there are less than 10 characters
-    showNotification("Please write more.", type = "info")
+    showNotification("Please write more.", type = "message")
   }
 })
 ```
@@ -611,8 +611,7 @@ vocab_plot <- reactive({
   df <- words_df() |> 
     mutate(New_Tag = str_replace(Tag, "NN.", "NOUN"), 
            New_Tag = str_replace(New_Tag, ".+V$", "VERB"), 
-           New_Tag = str_replace(New_Tag, ".+A$", "ADJECTIVE"), 
-           #New_Tag = str_replace(New_Tag, "XR", "ADJECTIVE"), 
+           New_Tag = str_replace(New_Tag, ".+A$", "ADJECTIVE"),
            New_Tag = str_replace(New_Tag, "VC.", "COPULA"), 
            New_Tag = str_replace(New_Tag, "MA.", "ADVERB"), 
            New_Tag = str_replace(New_Tag, "VX", "AUXILIARY")) |> 
@@ -1024,9 +1023,10 @@ col_pal <- reactive({
   })
 
 wc_download <- reactive({
-  wordcloud2a(word_list(), 
+  wordcloud2(word_list(), 
               color = rep_len(col_pal(), nrow(word_list())), # this allows giving color to every word
-              size = input$wcsize, rotateRatio = 0, ellipticity = .4)
+              size = input$wcsize, rotateRatio = 0, ellipticity = .3, 
+             fontFamily = "AppleGothic", fontWeight = "bold")
 })
 
 renderWordcloud2(wc_download())
