@@ -629,7 +629,7 @@ vocab_plot <- reactive({
     theme(legend.position = "none", axis.ticks = element_blank(), 
           panel.grid.minor.x = element_line(linetype = "dashed"), 
           panel.grid.major.y = element_blank(), plot.margin = margin(10, 10, 200, 10))
-  cowplot::plot_grid(vocab_plot(), NULL, rel_widths = c(1, 1.2))
+  cowplot::plot_grid(plot, NULL, rel_widths = c(1, 1.2))
 })
 
 comment_complexity <- reactive({
