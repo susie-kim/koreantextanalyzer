@@ -1,0 +1,148 @@
+
+.section.sidebar {
+  background-color: #ededed;
+}
+
+div {
+  font-size: medium;
+}
+
+h4 {
+  font-weight: 400;
+}
+
+h5 {
+  margin-bottom: 0px;
+}
+
+li.new {
+  padding-bottom: 10px;
+}
+
+.chart-title {
+  font-weight: 600;
+}
+
+a.btn-new,
+button.btn-new,
+div.btn-new {
+  background-color: white !important;
+  color: black !important;
+  border: 1px solid black !important;
+  margin-top: 10px !important;
+}
+
+a.btn-new:hover,
+button.btn-new:hover,
+div.btn-new:hover {
+  background-color: black !important;
+  color: white !important;;
+  border: 1px solid black !important
+}
+
+a.btn-new:active,
+button.btn-new:active,
+div.btn-new:active {
+  background-color: #2780e3 !important;
+  color: white !important;
+  border: 1px solid black !important
+}
+
+a.btn-new:focus:active,
+button.btn-new:focus:active,
+div.btn-new:focus:active {
+  background-color: black !important;
+  color: white !important;
+  border: 1px solid black !important;
+  font-weight: 500 !important;
+}
+
+a.btn-new:focus,
+button.btn-new:focus,
+div.btn-new:focus {
+  background-color: black !important;
+  color: white !important;
+  border: 1px solid black !important
+}
+
+a.btn-new:inactive,
+button.btn-new:inactive,
+div.btn-new:inactive {
+  background-color: white !important;
+  color: black !important;
+  border: 1px solid black !important
+}
+
+a.btn-search,
+button.btn-search,
+div.btn-search {
+  background-color: white !important;
+  color: black !important;
+  position: relative !important;
+  float: right !important;
+}
+
+a.btn-page,
+button.btn-page,
+div.btn-page {
+  background-color: white !important;
+  color: black !important;
+}
+
+.irs-bar,
+.irs-bar-edge,
+.irs-single,
+.irs-grid-pol {
+  background: black !important;
+  border-color: black !important;
+}
+
+.irs-from, 
+.irs-to, 
+.irs-single { 
+  background: black !important
+  
+}
+
+table {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+th,
+td {
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 10px;
+  vertical-align: top;
+}
+
+p.color1 {
+  border: 3px solid rgb(233, 161, 124);
+  border-radius: 10px
+}
+
+p.color2 {
+  border: 3px solid rgb(233, 228, 166);
+  border-radius: 10px
+}
+
+p.color3 {
+  border: 3px solid rgb(189, 122, 155);
+  border-radius: 10px
+}
+
+p.color4 {
+  border: 3px solid #F28A8A;
+  border-radius: 10px
+}
+      
+p.color5 {
+  border: 3px solid #54BCD1;
+  border-radius: 10px
+}
+
+p.color6 {
+  border: 3px solid #1BB6AF;
+  border-radius: 10px
+}
