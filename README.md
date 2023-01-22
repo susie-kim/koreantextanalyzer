@@ -39,8 +39,6 @@ Number of grammar points that you used from the specific level(s) that you selec
 
 * If the list does not show when you used a word that is supposed to be on the list, it is likely that you have typos and/or conjugation errors that caused incorrect tagging. 
 
-## Diversity and complexity metrics:
-
 ### Number of words per sentence:
 Number of words per sentence reflects your fluency as well as complexity of the text. Not all sentences in a writing need to be long and at the same length. Sentence length also may differ depending on what kind of text it is (e.g., genre, formality, colloquial vs written style, etc).
 
