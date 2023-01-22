@@ -47,4 +47,6 @@ This measure indicates the average number of connectives and noun-modifying form
 
 
 ## Important Note:
-Keep in mind that linguistic aspects of your writing is just part of what makes your writing good or bad. This report only evaluates the extent of linguistic variety and complexity you attempted to achieve. It does not speak to the content or organization and tells little about the accuracy and effectiveness of your language use. 
+Keep in mind that linguistic aspects of your writing is just part of what makes your writing good or bad. This tool only evaluates the extent of linguistic variety and complexity you attempted to achieve. It does not speak to the content or organization and tells little about the accuracy and effectiveness of your language use. 
+
+Hope you enjoy using this dashboard!
